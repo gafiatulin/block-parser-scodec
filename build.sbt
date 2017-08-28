@@ -40,8 +40,4 @@ libraryDependencies ++= Seq(
   "org.scalatest"           %% "scalatest"   % "3.0.1" % "test"
 )
 
-publishMavenStyle := true
-
-publishTo := Some(Resolver.file("file",  new File(Path.userHome.absolutePath+"/Work/mvn-repo")))
-
 crossScalaVersions := Seq("2.11.11", "2.12.3")
