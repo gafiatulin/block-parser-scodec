@@ -1,8 +1,8 @@
-package com.github.gafiatulin.util
+package com.github.gafiatulin.blockchain.util
 
 import java.security.MessageDigest
 
-import com.github.gafiatulin.protocol.Hash
+import com.github.gafiatulin.blockchain.protocol.Hash
 import org.spongycastle.crypto.digests.RIPEMD160Digest
 import scodec.bits.ByteVector
 

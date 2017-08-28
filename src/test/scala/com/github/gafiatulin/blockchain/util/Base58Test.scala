@@ -1,4 +1,4 @@
-package com.github.gafiatulin.util
+package com.github.gafiatulin.blockchain.util
 
 import org.scalatest.{Inspectors, Matchers, WordSpec}
 import scodec.bits.{ByteVector, HexStringSyntax}

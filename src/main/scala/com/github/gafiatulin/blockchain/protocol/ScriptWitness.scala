@@ -1,7 +1,7 @@
-package com.github.gafiatulin.protocol
+package com.github.gafiatulin.blockchain.protocol
 
-import scodec.bits.ByteVector
 import scodec.Codec
+import scodec.bits.ByteVector
 
 final case class ScriptWitness(stack: List[ByteVector])
 

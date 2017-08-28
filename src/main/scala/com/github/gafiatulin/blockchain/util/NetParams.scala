@@ -1,4 +1,4 @@
-package com.github.gafiatulin.util
+package com.github.gafiatulin.blockchain.util
 
 trait NetParams{
   def hrp: String

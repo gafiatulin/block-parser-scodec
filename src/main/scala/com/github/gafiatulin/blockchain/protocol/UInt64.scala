@@ -1,4 +1,4 @@
-package com.github.gafiatulin.protocol
+package com.github.gafiatulin.blockchain.protocol
 
 import scodec.Codec
 import scodec.codecs.int64L

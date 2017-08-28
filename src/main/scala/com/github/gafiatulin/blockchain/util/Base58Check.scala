@@ -1,4 +1,4 @@
-package com.github.gafiatulin.util
+package com.github.gafiatulin.blockchain.util
 
 case object Base58Check {
   def checksum(data: Array[Byte]): Array[Byte] = HashUtil.hash256(data).take(4)

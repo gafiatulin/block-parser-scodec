@@ -1,6 +1,6 @@
-package com.github.gafiatulin.protocol
+package com.github.gafiatulin.blockchain.protocol
 
-import com.github.gafiatulin.util.HashUtil
+import com.github.gafiatulin.blockchain.util.HashUtil
 import scodec.bits.{BitVector, HexStringSyntax}
 import scodec.codecs._
 import scodec.{Attempt, Codec, Decoder, Encoder}

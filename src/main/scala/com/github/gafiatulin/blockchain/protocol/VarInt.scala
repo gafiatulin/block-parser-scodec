@@ -1,4 +1,4 @@
-package com.github.gafiatulin.protocol
+package com.github.gafiatulin.blockchain.protocol
 
 import scodec.Attempt.Successful
 import scodec.bits.BitVector

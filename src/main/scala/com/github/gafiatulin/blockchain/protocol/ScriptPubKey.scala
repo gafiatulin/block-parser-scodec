@@ -1,10 +1,9 @@
-package com.github.gafiatulin.protocol
+package com.github.gafiatulin.blockchain.protocol
 
-import com.github.gafiatulin.util._
-import com.github.gafiatulin.util.{Base58Check, Bech32, HashUtil, NetParams}
-import scodec.{Attempt, Codec, DecodeResult, Decoder, Encoder, Err}
+import com.github.gafiatulin.blockchain.util.{Base58Check, Bech32, HashUtil, NetParams}
 import scodec.bits.{BitVector, ByteVector, HexStringSyntax}
 import scodec.codecs._
+import scodec.{Attempt, Codec, DecodeResult, Decoder, Encoder, Err}
 
 sealed trait ScriptPubKey{ self =>
   type T >: self.type <: ScriptPubKey

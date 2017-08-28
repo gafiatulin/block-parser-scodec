@@ -1,6 +1,7 @@
-package com.github.gafiatulin.util
+package com.github.gafiatulin.blockchain.util
 
 import org.scalatest.{Inspectors, Matchers, WordSpec}
+
 import scala.util.Success
 
 class Bech32Test extends WordSpec with Matchers with Inspectors{

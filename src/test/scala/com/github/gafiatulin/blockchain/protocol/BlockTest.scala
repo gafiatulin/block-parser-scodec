@@ -1,9 +1,8 @@
-package com.github.gafiatulin.protocol
+package com.github.gafiatulin.blockchain.protocol
 
-import com.github.gafiatulin.util.NetParams
+import com.github.gafiatulin.blockchain.util.NetParams
 import org.scalatest.{Inspectors, Matchers, WordSpec}
-import scodec.bits.ByteVector
-import scodec.bits.HexStringSyntax
+import scodec.bits.{ByteVector, HexStringSyntax}
 
 import scala.io.Source
 
