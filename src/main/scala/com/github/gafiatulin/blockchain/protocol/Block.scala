@@ -4,7 +4,7 @@ import scodec.Codec
 import scodec.codecs._
 
 final case class Block(blockHeader: BlockHeader, transactions: List[Transaction]){
-  def blockHash(hashing: Option[Array[Byte] => Array[Byte]] = None): Hash = blockHeader.hash()
+  def blockHash(hashing: Option[Array[Byte] => Array[Byte]] = None): Hash = blockHeader.hash(hashing)
 }
 
 case object Block{
